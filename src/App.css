@@ -1,0 +1,23 @@
+:root{
+    --bg-color-1:  #49453C;
+    --bg-color-1-a:  #49453c69;
+    --bg-color-2: #7A7465;
+    --bg-color-3: #DBD0B5;
+    --text-color: whitesmoke;
+}
+
+body{
+    margin:0;
+    background-color: var(--bg-color-3) !important;
+}
+
+/* FootBar */
+
+#FootBar{
+    background-color: var(--bg-color-1);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+}

@@ -1,0 +1,28 @@
+#Home {
+    height: calc(100vh - 100px - 30px);
+    background-image: url(../../img/home-background.jpg);
+    background-repeat: no-repeat;
+    background-position: 40% 50%;
+    background-size: auto auto;
+    display: flex;
+}
+
+#Home-Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    text-shadow: 2px 2px #11240E;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin-left: 10vmin;
+}
+
+#Hi {
+    background-color: var(--bg-color-1-a);
+    border-radius: 3vw;
+    /* border: 2vw solid transparent; */
+    /* padding: 2vw; */
+    box-shadow: 0px 0px 5vw 3vw var(--bg-color-1-a);
+}

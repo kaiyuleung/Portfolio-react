@@ -1,0 +1,99 @@
+#NavBar {
+    background-color: var(--bg-color-1);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+
+}
+
+#UBP-navlinks a {
+    text-decoration: none;
+    color: var(--text-color);
+    display: inline-block;
+    padding: 10px;
+    margin: 12px 20px 12px 20px;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#UBP-navlinks a:hover {
+    padding: 7px;
+    background-color: var(--bg-color-2);
+    color: var(--text-color);
+    border-color: var(--bg-color-2);
+    border-style: solid;
+    border-radius: 10px;
+    text-shadow: grey 2px 2px;
+}
+
+#UBP-navlinks .activeLink{
+    text-decoration: underline;
+}
+
+#contacts a{
+    margin: 0 5px 0 5px;
+}
+
+#contacts a:hover{
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+
+#LBP-navlinks a {
+    text-decoration: none;
+    color: var(--bg-color-1);
+}
+
+#LBP-navlinks .dropdown-item:has(.activeLink), #LBP-navlinks .activeLink{
+    text-decoration: underline;
+    color: var(--text-color);
+    background-color: var(--bg-color-1);
+}
+
+#LBP-dropdown-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 100vw;
+    height: 2vh;
+    font-size: 2vh;
+    vertical-align: top;
+    border-radius: 0;
+    background-color: var(--bg-color-2);
+    border-color: var(--bg-color-2);
+}
+
+#LBP-navlinks.dropdown-menu.show { 
+    width: 100vw;
+    border-radius: 0;
+    border:none;
+    border-bottom: 2px solid var(--bg-color-2);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#LBP-navlinks .dropdown-item:active {
+    background-color: var(--bg-color-2);
+}
+
+/* #navlinks-dropdown a {
+    text-decoration: none;
+    color: var(--text-color);
+    display: inline-block;
+    padding: 10px;
+    margin: 12px 20px 12px 20px;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navlinks-dropdown a:hover {
+    padding: 7px;
+    background-color: var(--bg-color-2);
+    color: var(--text-color);
+    border-color: var(--bg-color-2);
+    border-style: solid;
+    border-radius: 10px;
+    text-shadow: grey 2px 2px;
+} */

@@ -1,0 +1,27 @@
+.card{
+    background-color: var(--bg-color-1);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card i {
+    font-size: 70px;
+    color: whitesmoke;
+    margin-top: 8px;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card h5 {
+    font-size: 13px;
+}
