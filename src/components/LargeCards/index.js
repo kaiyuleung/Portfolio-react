@@ -10,7 +10,7 @@ export default function LargeCards({pic, title, children, links, team="", member
                     <Carousel variant="dark" interval={null}>
                         {pic.map(p => 
                             <Carousel.Item >
-                                <a href={p.src} target="_blank">
+                                <a href={p.src} target="_blank" rel="noreferrer">
                                     <img 
                                     id = {p.name}
                                     className = "d-block w-100" 
