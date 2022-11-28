@@ -81,7 +81,7 @@ export default function Portfolio() {
               { name: "online-game", src: require('../../img/portfolio/lap3_online-game.png') },
               { name: "leaderboard", src: require('../../img/portfolio/lap3_leaderboard.png') },
               { name: "local-demo", src: require('../../img/portfolio/lap3_local-demo.gif') },
-              // { name: "online-demo", src: require('../../img/portfolio/lap3_online-demo.gif') },
+              { name: "online-demo", src: require('../../img/portfolio/lap3_online-demo.gif') },
               { name: "Frontend-layout", src: require('../../img/portfolio/lap3_Frontend-layout.png') },
               { name: "project-layout", src: require('../../img/portfolio/lap3_project-layout.png') },
               { name: "data-layout", src: require('../../img/portfolio/lap3_data-layout.png') },
