@@ -41,10 +41,12 @@ export default function LargeCards({pic, title, children, links, team="", member
                         <div className='col'>Deployed:
                             <a href={links.fedl}>Front-End</a>
                             <a href={links.bedl}>Back-End</a>
+                            {links.bedl_2? <a href={links.bedl_2}>Back-End_2</a> : ""}
                         </div>
                         <div className='col'>Repository:
                             <a href={links.ferl}>Front-End</a>
                             <a href={links.berl}>Back-End</a>
+                            {links.berl_2? <a href={links.berl_2}>Back-End_2</a> : ""}
                         </div>
                     </div>
                 </div>
