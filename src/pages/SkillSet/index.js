@@ -78,6 +78,7 @@ export default function SkillSet() {
         <MiniCards iClass="devicon-arduino-plain" title="Arduino" />
         <MiniCards iClass="devicon-docker-plain" title="Docker" />
         <MiniCards src={require("../../img/skillset/netlify.png")} title="Netlify" />
+        <MiniCards src={require("../../img/skillset/render.png")} title="Render" />
         <MiniCards iClass="devicon-heroku-plain" title="Heroku" />
         <MiniCards iClass="devicon-azure-plain" title="Azure" />
       </SkillSec>
