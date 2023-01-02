@@ -45,8 +45,11 @@ export default function SkillSet() {
         <MiniCards iClass="devicon-flask-original" title="Flask" />
         <MiniCards iClass="devicon-bootstrap-plain" title="Bootstrap" />
         <MiniCards iClass="devicon-react-plain" title="React" />
+        <MiniCards iClass="devicon-redux-original" title="Redux" />
         <MiniCards iClass="devicon-socketio-original" title="SocketIO" />
+        <MiniCards src={require("../../img/skillset/phaser.png")} title="Phaser" />
         <MiniCards iClass="devicon-postgresql-plain" title="PostgreSQL" />
+        <MiniCards iClass="devicon-sqlalchemy-plain" title="SQLAlchemy" />
         <MiniCards iClass="devicon-mongodb-plain" title="MongoDB" />
         <MiniCards iClass="devicon-jest-plain" title="Jest" />
         <MiniCards iClass="devicon-pytest-plain" title="Pytest" />
